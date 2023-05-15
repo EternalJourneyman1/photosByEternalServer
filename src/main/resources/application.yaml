@@ -1,0 +1,11 @@
+cloudinary:
+  api-key: apiKey
+  api-secret: apiSecret
+  cloud-name: cloudName
+server:
+  port: 8888
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB

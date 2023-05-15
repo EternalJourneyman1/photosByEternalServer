@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload</title>
+    <style>
+        .image-field {
+            margin-bottom: 10px;
+        }
+
+        .image-field input[type="file"] {
+            margin-bottom: 5px;
+        }
+
+        .metadata-field {
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h2>Image Upload</h2>
+<form id="uploadForm" action="/images/upload" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="fileInput">Choose File:</label>
+        <input type="file" id="fileInput" name="file" accept="image/*">
+    </div>
+    <div>
+        <input type="text" name="description" placeholder="Description">
+    </div>
+    <div>
+        <input type="text" name="tags" placeholder="Tags (separate by comma)">
+    </div>
+    <div>
+        <input type="submit" value="Upload">
+    </div>
+</form>
+
+</body>
+</html>
