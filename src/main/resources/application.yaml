@@ -1,3 +1,5 @@
+allowed:
+  origins: url,url
 cloudinary:
   api-key: apiKey
   api-secret: apiSecret
