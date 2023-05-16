@@ -1,0 +1,6 @@
+spring:
+  dotenv:
+    encoding: UTF-8
+    ignore-resource-not-found: true
+    name: .env
+    separator: =

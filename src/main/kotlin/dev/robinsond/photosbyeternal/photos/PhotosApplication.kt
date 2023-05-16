@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class PhotosApplication
 
 fun main(args: Array<String>) {
+
 	runApplication<PhotosApplication>(*args)
 }
