@@ -1,12 +1,15 @@
 allowed:
-  origins: url,url
+  origins: http://localhost:8081/images
 cloudinary:
-  api-key: apiKey
-  api-secret: apiSecret
-  cloud-name: cloudName
+  api-key: 744658265732493
+  api-secret: QBFigKInDm4fjNOSyi3NkNGpOpY
+  cloud-name: photosbyeternal
 server:
   port: ${PORT:8888}
 spring:
+  profiles:
+    include:
+      - dotenv
   servlet:
     multipart:
       max-file-size: 20MB

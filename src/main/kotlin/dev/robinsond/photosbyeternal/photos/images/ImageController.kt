@@ -35,7 +35,7 @@ class ImageController(private val cloudinary: Cloudinary) {
             .body(result["resources"])
     }
 
-    @PostMapping("/upload")
+//    @PostMapping("/upload")
     fun upload(
         @RequestParam("file") file: MultipartFile,
         @RequestParam("description") description: String,
